@@ -7,7 +7,6 @@
 //
 
 import Viper
-import Core
 
 public class LoginPresenter: Presenter, Interactable {
 

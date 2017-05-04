@@ -18,9 +18,26 @@
 		B94435EA1E9233BA006A0D1E /* LoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B94435E91E9233BA006A0D1E /* LoginPresenter.swift */; };
 		B94435F01E923533006A0D1E /* LoginArbiter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B94435EF1E923533006A0D1E /* LoginArbiter.swift */; };
 		B94435F41E92389E006A0D1E /* LoginSceneMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = B94435F31E92389E006A0D1E /* LoginSceneMock.swift */; };
+		B96AFA3A1EBB198C00768D29 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96AFA331EBB198C00768D29 /* AuthService.swift */; };
+		B96AFA3B1EBB198C00768D29 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96AFA341EBB198C00768D29 /* Contact.swift */; };
+		B96AFA3C1EBB198C00768D29 /* DatabaseAccess.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96AFA351EBB198C00768D29 /* DatabaseAccess.swift */; };
+		B96AFA3D1EBB198C00768D29 /* DatabaseProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96AFA361EBB198C00768D29 /* DatabaseProtocol.swift */; };
+		B96AFA3E1EBB198C00768D29 /* Mood.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96AFA371EBB198C00768D29 /* Mood.swift */; };
+		B96AFA3F1EBB198C00768D29 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96AFA381EBB198C00768D29 /* User.swift */; };
+		B96AFA401EBB198C00768D29 /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96AFA391EBB198C00768D29 /* UserService.swift */; };
+		B96AFA4D1EBB19C000768D29 /* AuthRemoteService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96AFA431EBB19C000768D29 /* AuthRemoteService.swift */; };
+		B96AFA4E1EBB19C000768D29 /* AuthServiceErrorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96AFA441EBB19C000768D29 /* AuthServiceErrorExtension.swift */; };
+		B96AFA4F1EBB19C000768D29 /* DatabaseAccessErrorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96AFA451EBB19C000768D29 /* DatabaseAccessErrorExtension.swift */; };
+		B96AFA501EBB19C000768D29 /* FIRDataSnapshotExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96AFA461EBB19C000768D29 /* FIRDataSnapshotExtension.swift */; };
+		B96AFA511EBB19C000768D29 /* FirebaseHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96AFA471EBB19C000768D29 /* FirebaseHelper.swift */; };
+		B96AFA521EBB19C000768D29 /* RemoteDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96AFA481EBB19C000768D29 /* RemoteDatabase.swift */; };
+		B96AFA531EBB19C000768D29 /* RemoteDatabaseAccess.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96AFA491EBB19C000768D29 /* RemoteDatabaseAccess.swift */; };
+		B96AFA541EBB19C000768D29 /* RemoteDatabaseSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96AFA4A1EBB19C000768D29 /* RemoteDatabaseSource.swift */; };
+		B96AFA551EBB19C000768D29 /* ResourcePath.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96AFA4B1EBB19C000768D29 /* ResourcePath.swift */; };
+		B96AFA561EBB19C000768D29 /* UserExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96AFA4C1EBB19C000768D29 /* UserExtension.swift */; };
+		B96AFA591EBB1AAA00768D29 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B96AFA581EBB1AAA00768D29 /* GoogleService-Info.plist */; };
 		B97DBEAB1E94BF9900E11124 /* LoginModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = B97DBEAA1E94BF9900E11124 /* LoginModule.swift */; };
 		B97DBEAD1E94C0DF00E11124 /* LoginModuleTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B97DBEAC1E94C0DF00E11124 /* LoginModuleTest.swift */; };
-		B97DBEB61E94C68300E11124 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B97DBEB51E94C68300E11124 /* GoogleService-Info.plist */; };
 		B981A37F1E8F8CD800D14233 /* LoginInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B981A37E1E8F8CD800D14233 /* LoginInteractor.swift */; };
 		B981A3821E8F8E5000D14233 /* LoginInteractorTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B981A3811E8F8E5000D14233 /* LoginInteractorTest.swift */; };
 		B981A3851E8F8FA200D14233 /* AuthServiceMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = B981A3841E8F8FA200D14233 /* AuthServiceMock.swift */; };
@@ -72,6 +89,24 @@
 		B94435E91E9233BA006A0D1E /* LoginPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginPresenter.swift; sourceTree = "<group>"; };
 		B94435EF1E923533006A0D1E /* LoginArbiter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginArbiter.swift; sourceTree = "<group>"; };
 		B94435F31E92389E006A0D1E /* LoginSceneMock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginSceneMock.swift; sourceTree = "<group>"; };
+		B96AFA331EBB198C00768D29 /* AuthService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AuthService.swift; path = Modules/Core/Core/AuthService.swift; sourceTree = "<group>"; };
+		B96AFA341EBB198C00768D29 /* Contact.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Contact.swift; path = Modules/Core/Core/Contact.swift; sourceTree = "<group>"; };
+		B96AFA351EBB198C00768D29 /* DatabaseAccess.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DatabaseAccess.swift; path = Modules/Core/Core/DatabaseAccess.swift; sourceTree = "<group>"; };
+		B96AFA361EBB198C00768D29 /* DatabaseProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DatabaseProtocol.swift; path = Modules/Core/Core/DatabaseProtocol.swift; sourceTree = "<group>"; };
+		B96AFA371EBB198C00768D29 /* Mood.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Mood.swift; path = Modules/Core/Core/Mood.swift; sourceTree = "<group>"; };
+		B96AFA381EBB198C00768D29 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = User.swift; path = Modules/Core/Core/User.swift; sourceTree = "<group>"; };
+		B96AFA391EBB198C00768D29 /* UserService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UserService.swift; path = Modules/Core/Core/UserService.swift; sourceTree = "<group>"; };
+		B96AFA431EBB19C000768D29 /* AuthRemoteService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AuthRemoteService.swift; path = Modules/ServiceProvider/ServiceProvider/AuthRemoteService.swift; sourceTree = "<group>"; };
+		B96AFA441EBB19C000768D29 /* AuthServiceErrorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AuthServiceErrorExtension.swift; path = Modules/ServiceProvider/ServiceProvider/AuthServiceErrorExtension.swift; sourceTree = "<group>"; };
+		B96AFA451EBB19C000768D29 /* DatabaseAccessErrorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DatabaseAccessErrorExtension.swift; path = Modules/ServiceProvider/ServiceProvider/DatabaseAccessErrorExtension.swift; sourceTree = "<group>"; };
+		B96AFA461EBB19C000768D29 /* FIRDataSnapshotExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FIRDataSnapshotExtension.swift; path = Modules/ServiceProvider/ServiceProvider/FIRDataSnapshotExtension.swift; sourceTree = "<group>"; };
+		B96AFA471EBB19C000768D29 /* FirebaseHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FirebaseHelper.swift; path = Modules/ServiceProvider/ServiceProvider/FirebaseHelper.swift; sourceTree = "<group>"; };
+		B96AFA481EBB19C000768D29 /* RemoteDatabase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RemoteDatabase.swift; path = Modules/ServiceProvider/ServiceProvider/RemoteDatabase.swift; sourceTree = "<group>"; };
+		B96AFA491EBB19C000768D29 /* RemoteDatabaseAccess.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RemoteDatabaseAccess.swift; path = Modules/ServiceProvider/ServiceProvider/RemoteDatabaseAccess.swift; sourceTree = "<group>"; };
+		B96AFA4A1EBB19C000768D29 /* RemoteDatabaseSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RemoteDatabaseSource.swift; path = Modules/ServiceProvider/ServiceProvider/RemoteDatabaseSource.swift; sourceTree = "<group>"; };
+		B96AFA4B1EBB19C000768D29 /* ResourcePath.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ResourcePath.swift; path = Modules/ServiceProvider/ServiceProvider/ResourcePath.swift; sourceTree = "<group>"; };
+		B96AFA4C1EBB19C000768D29 /* UserExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UserExtension.swift; path = Modules/ServiceProvider/ServiceProvider/UserExtension.swift; sourceTree = "<group>"; };
+		B96AFA581EBB1AAA00768D29 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../GoogleService-Info.plist"; sourceTree = "<group>"; };
 		B97DBEAA1E94BF9900E11124 /* LoginModule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginModule.swift; sourceTree = "<group>"; };
 		B97DBEAC1E94C0DF00E11124 /* LoginModuleTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginModuleTest.swift; sourceTree = "<group>"; };
 		B97DBEB51E94C68300E11124 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../Umalahokan/GoogleService-Info.plist"; sourceTree = "<group>"; };
@@ -197,6 +232,47 @@
 			name = Module;
 			sourceTree = "<group>";
 		};
+		B96AFA321EBB196E00768D29 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				B96AFA421EBB199B00768D29 /* Core */,
+				B96AFA571EBB19D900768D29 /* ServiceProvider */,
+			);
+			name = Modules;
+			sourceTree = "<group>";
+		};
+		B96AFA421EBB199B00768D29 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				B96AFA331EBB198C00768D29 /* AuthService.swift */,
+				B96AFA341EBB198C00768D29 /* Contact.swift */,
+				B96AFA351EBB198C00768D29 /* DatabaseAccess.swift */,
+				B96AFA361EBB198C00768D29 /* DatabaseProtocol.swift */,
+				B96AFA371EBB198C00768D29 /* Mood.swift */,
+				B96AFA381EBB198C00768D29 /* User.swift */,
+				B96AFA391EBB198C00768D29 /* UserService.swift */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		B96AFA571EBB19D900768D29 /* ServiceProvider */ = {
+			isa = PBXGroup;
+			children = (
+				B96AFA581EBB1AAA00768D29 /* GoogleService-Info.plist */,
+				B96AFA431EBB19C000768D29 /* AuthRemoteService.swift */,
+				B96AFA441EBB19C000768D29 /* AuthServiceErrorExtension.swift */,
+				B96AFA451EBB19C000768D29 /* DatabaseAccessErrorExtension.swift */,
+				B96AFA461EBB19C000768D29 /* FIRDataSnapshotExtension.swift */,
+				B96AFA471EBB19C000768D29 /* FirebaseHelper.swift */,
+				B96AFA481EBB19C000768D29 /* RemoteDatabase.swift */,
+				B96AFA491EBB19C000768D29 /* RemoteDatabaseAccess.swift */,
+				B96AFA4A1EBB19C000768D29 /* RemoteDatabaseSource.swift */,
+				B96AFA4B1EBB19C000768D29 /* ResourcePath.swift */,
+				B96AFA4C1EBB19C000768D29 /* UserExtension.swift */,
+			);
+			name = ServiceProvider;
+			sourceTree = "<group>";
+		};
 		B97DBEAE1E94C0E400E11124 /* Module */ = {
 			isa = PBXGroup;
 			children = (
@@ -255,6 +331,7 @@
 		B9B20EED1E83748F000E7E44 = {
 			isa = PBXGroup;
 			children = (
+				B96AFA321EBB196E00768D29 /* Modules */,
 				B9B20EF91E83748F000E7E44 /* Login */,
 				B9B20F041E83748F000E7E44 /* LoginTests */,
 				B9B20EF81E83748F000E7E44 /* Products */,
@@ -435,7 +512,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B97DBEB61E94C68300E11124 /* GoogleService-Info.plist in Resources */,
+				B96AFA591EBB1AAA00768D29 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -534,9 +611,26 @@
 				B94435F01E923533006A0D1E /* LoginArbiter.swift in Sources */,
 				B94435EA1E9233BA006A0D1E /* LoginPresenter.swift in Sources */,
 				B94435E11E921638006A0D1E /* LoginWireframe.swift in Sources */,
+				B96AFA3E1EBB198C00768D29 /* Mood.swift in Sources */,
+				B96AFA561EBB19C000768D29 /* UserExtension.swift in Sources */,
+				B96AFA531EBB19C000768D29 /* RemoteDatabaseAccess.swift in Sources */,
+				B96AFA521EBB19C000768D29 /* RemoteDatabase.swift in Sources */,
+				B96AFA511EBB19C000768D29 /* FirebaseHelper.swift in Sources */,
 				B94435E51E9231E6006A0D1E /* LoginScene.swift in Sources */,
+				B96AFA3D1EBB198C00768D29 /* DatabaseProtocol.swift in Sources */,
+				B96AFA401EBB198C00768D29 /* UserService.swift in Sources */,
+				B96AFA4F1EBB19C000768D29 /* DatabaseAccessErrorExtension.swift in Sources */,
+				B96AFA3B1EBB198C00768D29 /* Contact.swift in Sources */,
+				B96AFA541EBB19C000768D29 /* RemoteDatabaseSource.swift in Sources */,
 				B981A37F1E8F8CD800D14233 /* LoginInteractor.swift in Sources */,
+				B96AFA3F1EBB198C00768D29 /* User.swift in Sources */,
+				B96AFA3C1EBB198C00768D29 /* DatabaseAccess.swift in Sources */,
 				B97DBEAB1E94BF9900E11124 /* LoginModule.swift in Sources */,
+				B96AFA3A1EBB198C00768D29 /* AuthService.swift in Sources */,
+				B96AFA4D1EBB19C000768D29 /* AuthRemoteService.swift in Sources */,
+				B96AFA501EBB19C000768D29 /* FIRDataSnapshotExtension.swift in Sources */,
+				B96AFA551EBB19C000768D29 /* ResourcePath.swift in Sources */,
+				B96AFA4E1EBB19C000768D29 /* AuthServiceErrorExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

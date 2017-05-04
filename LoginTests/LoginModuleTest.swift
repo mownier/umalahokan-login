@@ -7,7 +7,6 @@
 //
 
 import XCTest
-import ServiceProvider
 @testable import Login
 
 class LoginModuleTest: XCTestCase {
