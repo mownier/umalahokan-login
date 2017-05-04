@@ -1,18 +1,22 @@
 {
-  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "D374B950D938F78D3ADB1495E7161F3B13EB137C",
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "D374B950D938F78D3ADB1495E7161F3B13EB137C+++235322D",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
 
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
-    "C6F7247116B3F0BB542110B07EF2A11834E686B8" : 9223372036854775807,
-    "C283D5B10F47B7BC32DC72001914FD1F14375BF2" : 9223372036854775807,
-    "D374B950D938F78D3ADB1495E7161F3B13EB137C" : 9223372036854775807
+    "C283D5B10F47B7BC32DC72001914FD1F14375BF2+++6E93415" : 9223372036854775807,
+    "D374B950D938F78D3ADB1495E7161F3B13EB137C+++3E6DC33" : 9223372036854775807,
+    "D374B950D938F78D3ADB1495E7161F3B13EB137C+++235322D" : 9223372036854775807,
+    "D374B950D938F78D3ADB1495E7161F3B13EB137C+++806E352" : 9223372036854775807,
+    "D374B950D938F78D3ADB1495E7161F3B13EB137C+++970B01D" : 9223372036854775807
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "CA5D5189-D155-4DF1-8516-092179BD96D1",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
-    "C6F7247116B3F0BB542110B07EF2A11834E686B8" : "ServiceProvider\/",
-    "C283D5B10F47B7BC32DC72001914FD1F14375BF2" : "..",
-    "D374B950D938F78D3ADB1495E7161F3B13EB137C" : "Core\/"
+    "C283D5B10F47B7BC32DC72001914FD1F14375BF2+++6E93415" : "..",
+    "D374B950D938F78D3ADB1495E7161F3B13EB137C+++3E6DC33" : "Core\/",
+    "D374B950D938F78D3ADB1495E7161F3B13EB137C+++235322D" : "Login\/",
+    "D374B950D938F78D3ADB1495E7161F3B13EB137C+++806E352" : "ServiceProvider\/",
+    "D374B950D938F78D3ADB1495E7161F3B13EB137C+++970B01D" : "Core\/"
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "Login",
   "DVTSourceControlWorkspaceBlueprintVersion" : 204,
@@ -21,22 +25,27 @@
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/mownier\/Umalahokan.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C283D5B10F47B7BC32DC72001914FD1F14375BF2"
-    },
-    {
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/mownier\/umalahokan-service-provider.git",
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C6F7247116B3F0BB542110B07EF2A11834E686B8"
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C283D5B10F47B7BC32DC72001914FD1F14375BF2+++6E93415"
     },
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/mownier\/umalahokan-login.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "D374B950D938F78D3ADB1495E7161F3B13EB137C"
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "D374B950D938F78D3ADB1495E7161F3B13EB137C+++235322D"
     },
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/mownier\/umalahokan-core.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "D374B950D938F78D3ADB1495E7161F3B13EB137C"
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "D374B950D938F78D3ADB1495E7161F3B13EB137C+++3E6DC33"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/mownier\/umalahokan-service-provider.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "D374B950D938F78D3ADB1495E7161F3B13EB137C+++806E352"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/mownier\/umalahokan-login.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "D374B950D938F78D3ADB1495E7161F3B13EB137C+++970B01D"
     }
   ]
 }
