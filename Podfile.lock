@@ -1,0 +1,22 @@
+PODS:
+  - Viper (1.1.1)
+
+DEPENDENCIES:
+  - Viper (from `https://github.com/mownier/viper.git`, tag `1.1.1`)
+
+EXTERNAL SOURCES:
+  Viper:
+    :git: https://github.com/mownier/viper.git
+    :tag: 1.1.1
+
+CHECKOUT OPTIONS:
+  Viper:
+    :git: https://github.com/mownier/viper.git
+    :tag: 1.1.1
+
+SPEC CHECKSUMS:
+  Viper: a6b0a486e22f99a716ef00db4c09a7802f6bae9a
+
+PODFILE CHECKSUM: 7e16e8004ec187cd47afeb2f5ead17d2047fa627
+
+COCOAPODS: 1.2.1
