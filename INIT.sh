@@ -1,8 +1,10 @@
 #!/bin/bash
 
-git remote add core-origin https://github.com/mownier/umalahokan-core.git
-git remote add service-provider-origin https://github.com/mownier/umalahokan-service-provider.git
-git subtree add --prefix=Modules/Core core-origin master
-git subtree add --prefix=Modules/ServiceProvider service-provider-origin master
-
+git submodule init
+git submodule update
 pod install
+
+GREEN='\033[0;32m'
+NC='\033[0m'
+
+echo -e "${GREEN}Place 'GoogleService-Info.plist' in the project root directory.${NC}"
