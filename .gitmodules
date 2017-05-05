@@ -1,3 +1,6 @@
 [submodule "Modules/Core"]
 	path = Modules/Core
 	url = https://github.com/mownier/umalahokan-core.git
+[submodule "Modules/ServiceProvider"]
+	path = Modules/ServiceProvider
+	url = https://github.com/mownier/umalahokan-service-provider.git
